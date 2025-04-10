@@ -14,7 +14,7 @@ nav a {
             color: #333;
         }
 
-        /* Header styling */
+    
         header {
             text-align: center;
             margin-bottom: 40px;
@@ -43,7 +43,7 @@ nav a {
             font-size: 1.2em;
         }
 
-        /* Styling for sections */
+       
         section {
             margin-bottom: 40px;
             padding: 20px;
@@ -52,7 +52,7 @@ nav a {
             background-color: #f9f9f9;
         }
 
-        /* Paragraph and strong styling */
+       
         p {
             font-size: 1.1em;
             margin-bottom: 10px;
@@ -62,7 +62,6 @@ nav a {
             font-weight: bold;
         }
 
-        /* Unordered list and ordered list styling */
         ul, ol {
             margin-left: 20px;
         }
@@ -71,7 +70,7 @@ nav a {
             margin-bottom: 8px;
         }
 
-        /* Styling for aside */
+    
         aside {
             background-color: #f0f0f0;
             padding: 15px;
@@ -89,8 +88,7 @@ nav a {
         aside p {
             font-size: 1.1em;
         }
-
-        /* Footer styling */
+ 
         footer {
             text-align: center;
             font-size: 0.9em;
@@ -109,7 +107,7 @@ nav a {
             text-decoration: underline;
         }
 
-        /* Styling links */
+
         a {
             color: #3498db;
             text-decoration: none;
