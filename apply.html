@@ -38,13 +38,14 @@
     <input type="text" id="last-name" name="last_name" maxlength="20" pattern="[A-Za-z]+" required>
 
     <label for="dob">Date of Birth (dd/mm/yyyy):</label>
-    <input type="text" id="dob" name="dob" pattern="\d{2}/\d{2}/\d{4}" required placeholder="dd/mm/yyyy">
+    <input type="date" id="dob" name="dob" pattern="\d{2}/\d{2}/\d{4}" required placeholder="dd/mm/yyyy">
 
     <fieldset>
       <legend>Gender</legend>
       <label><input type="radio" name="gender" value="Male" required> Male</label>
       <label><input type="radio" name="gender" value="Female" required> Female</label>
       <label><input type="radio" name="gender" value="Other" required> Other</label>
+      
     </fieldset>
 
     <label for="address">Street Address:</label>
@@ -92,4 +93,5 @@
 
   </form>
 </body>
+
 </html>
