@@ -10,7 +10,8 @@ nav a {
             font-family: Arial, sans-serif;
             margin: 20px;
             line-height: 1.6;
-            color: #333;
+            color: 
+            #000000;
         }
 
     
@@ -20,25 +21,25 @@ nav a {
         }
 
         h1 {
-            color: #006e9d;
+            color: #00b3ff;
             font-size: 2.5em;
             margin-bottom: 10px;
         }
 
         h2 {
-            color: #2c3e50;
+            color: #0281ff;
             font-size: 2em;
             margin-bottom: 10px;
         }
 
         h3 {
-            color: #000000;
+            color: #a1ccff;
             font-size: 1.5em;
             margin-bottom: 10px;
         }
 
         h4 {
-            color: #34495e;
+            color: #0080ff;
             font-size: 1.2em;
         }
 
@@ -79,7 +80,7 @@ nav a {
         }
 
         aside h3 {
-            color: #e67e22;
+            color: #000000;
             font-size: 1.3em;
             margin-bottom: 10px;
         }
@@ -118,3 +119,4 @@ nav a {
          button{
          color: #006e9d;
         }
+        
