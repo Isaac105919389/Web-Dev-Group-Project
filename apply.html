@@ -9,6 +9,7 @@
 
 
 <body>
+
     <nav>
         <a href="index.html">Home</a>
         
@@ -23,29 +24,33 @@
   
   <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
 
-    
+
     <label for="job-ref">Job Reference Number:</label>
+
     <select id="job-ref" name="job_ref" required>
+      
       <option value="">-- Select Job Reference --</option>
       <option value="JOB001"> Software developer</option>
       <option value="JOB002"> IT Systems Architect</option>
-    </select>
 
-    <label for="first-name">First Name:</label>
+    </select> 
+
+    <label style="color:powderblue;" id="label1" for="first-name" >First Name:</label>
     <input type="text" id="first-name" name="first_name" maxlength="20" pattern="[A-Za-z]+" required>
 
-    <label for="last-name">Last Name:</label>
+    <label style="color: beige" for="last-name">Last Name:</label>
     <input type="text" id="last-name" name="last_name" maxlength="20" pattern="[A-Za-z]+" required>
 
     <label for="dob">Date of Birth (dd/mm/yyyy):</label>
     <input type="date" id="dob" name="dob" pattern="\d{2}/\d{2}/\d{4}" required placeholder="dd/mm/yyyy">
 
     <fieldset>
+  
       <legend>Gender</legend>
       <label><input type="radio" name="gender" value="Male" required> Male</label>
       <label><input type="radio" name="gender" value="Female" required> Female</label>
       <label><input type="radio" name="gender" value="Other" required> Other</label>
-      
+
     </fieldset>
 
     <label for="address">Street Address:</label>
@@ -92,6 +97,8 @@
     <button type="submit">Apply</button>
 
   </form>
+
+
 </body>
 
 </html>
