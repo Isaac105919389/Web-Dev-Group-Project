@@ -2,6 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+<<<<<<< HEAD
     background-color: #f4f4f9;
 }
 
@@ -15,6 +16,17 @@ header {
 
 /* Navigation Styles */
 nav {
+=======
+  }
+  
+  /* Style for student ID aligned to the right */
+  .student-info {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+/* Navigation bar styles */
+  nav {
+>>>>>>> cb2990964f8dc05367181b36810fcce66430fc59
     background-color: #7accea;
     padding: 10px;
     text-align: center;
@@ -31,6 +43,7 @@ nav ul li {
     margin: 0 15px;
 }
 
+<<<<<<< HEAD
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -91,6 +104,17 @@ table {
 
 /* Bold Table Headings */
 th {
+=======
+/* Table styling */
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+/* Table header styling */
+  th {
+>>>>>>> cb2990964f8dc05367181b36810fcce66430fc59
     font-weight: bold;
     padding: 10px;
 }
@@ -100,6 +124,7 @@ td {
     padding: 10px;
     background-color: #f2f2f2;
     text-align: center;
+<<<<<<< HEAD
 }
 
 td:hover {
@@ -134,3 +159,17 @@ footer {
         margin: 10px;
     }
 }
+=======
+  }
+  /* Hover effect for table cells */
+  td:hover {
+    background-color: #d9eaff;
+  }
+  
+ /* Border styling for table, headers, and cells */
+  table, th, td {
+    border: 1px solid #aaa;
+  }
+
+  
+>>>>>>> cb2990964f8dc05367181b36810fcce66430fc59
