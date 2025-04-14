@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  /* Style for student ID aligned to the right */
+  .student-info {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+/* Navigation bar styles */
+  nav {
+    background-color: #7accea;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Table styling */
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+/* Table header styling */
+  th {
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  /* Table cell background color and hover effect */
+  td {
+    padding: 10px;
+    background-color: #f2f2f2; /* hex format */
+    text-align: center;
+  }
+  /* Hover effect for table cells */
+  td:hover {
+    background-color: #d9eaff;
+  }
+  
+ /* Border styling for table, headers, and cells */
+  table, th, td {
+    border: 1px solid #aaa;
+  }
+
+  

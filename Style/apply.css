@@ -1,0 +1,80 @@
+/* h1 style */
+h1 {
+  color: #ff0000;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+/* h2 style */
+h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+/* h3 style */
+h3 {
+    color: #1971ff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+/* h4 style */
+h4 {
+    color: #0080ff;
+    font-size: 1.2em;
+}
+/* Navigation bar styling */
+nav {
+    background-color: #7accea;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    
+  }
+/* Label styling for form elements */
+  label {
+    display: block;
+    margin-top: 15px;
+
+  }
+
+/* Input, select, and textarea styles for form fields */
+  input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+
+  /* Styling for fieldset used to group form elements */
+  fieldset {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+/* Styling for checkboxes and their labels */
+  .checkbox-group label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+/* Button styling */
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+
+  /* Custom label class (likely a mistake in naming) */
+  label1 {
+    color: magenta;
+  }
+
+  <!-- Live site: https://isaac105919389.github.io/Web-Dev-Group-Project/ -->
