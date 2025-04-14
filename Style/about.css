@@ -59,5 +59,26 @@ td {
   table, th, td {
     border: 1px solid #aaa;
   }
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
+/* Responsive Design - Small screens */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        margin: 20px;
+    }
+}
   
