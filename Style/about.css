@@ -2,7 +2,6 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-<<<<<<< HEAD
     background-color: #f4f4f9;
 }
 
@@ -16,17 +15,6 @@ header {
 
 /* Navigation Styles */
 nav {
-=======
-  }
-  
-  /* Style for student ID aligned to the right */
-  .student-info {
-    text-align: right;
-    margin-bottom: 20px;
-  }
-/* Navigation bar styles */
-  nav {
->>>>>>> cb2990964f8dc05367181b36810fcce66430fc59
     background-color: #7accea;
     padding: 10px;
     text-align: center;
@@ -43,68 +31,6 @@ nav ul li {
     margin: 0 15px;
 }
 
-<<<<<<< HEAD
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    display: block;
-}
-
-nav ul li a:hover {
-    background-color: #ddd;
-}
-
-/* Main Content Styling */
-main {
-    padding: 20px;
-    margin: 20px;
-}
-
-/* Group Information Section */
-.group-info, .contributions, .group-photo, .interests {
-    margin-bottom: 40px;
-}
-
-h2, h3 {
-    color: #0044cc;
-}
-
-/* Style for student ID aligned to the right */
-.student-info {
-    text-align: right;
-    margin-bottom: 20px;
-}
-
-/* Member Contributions Definition List */
-dl dt {
-    font-weight: bold;
-}
-
-dl dd {
-    margin-bottom: 10px;
-}
-
-/* Group Photo Styling */
-figure {
-    text-align: center;
-}
-
-.group-photo img {
-    width: 300px;
-    height: auto;
-}
-
-/* Table Styles */
-table {
-    margin: 0 auto;
-    border-collapse: collapse;
-    width: 70%;
-}
-
-/* Bold Table Headings */
-th {
-=======
 /* Table styling */
   table {
     margin: 0 auto;
@@ -114,7 +40,6 @@ th {
   
 /* Table header styling */
   th {
->>>>>>> cb2990964f8dc05367181b36810fcce66430fc59
     font-weight: bold;
     padding: 10px;
 }
@@ -124,42 +49,6 @@ td {
     padding: 10px;
     background-color: #f2f2f2;
     text-align: center;
-<<<<<<< HEAD
-}
-
-td:hover {
-    background-color: #d9eaff;
-}
-
-/* Borders for Table */
-table, th, td {
-    border: 1px solid #aaa;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-size: small;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Responsive Design for Small Screens */
-@media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin: 5px 0;
-    }
-
-    main {
-        margin: 10px;
-    }
-}
-=======
   }
   /* Hover effect for table cells */
   td:hover {
@@ -172,4 +61,3 @@ footer {
   }
 
   
->>>>>>> cb2990964f8dc05367181b36810fcce66430fc59
