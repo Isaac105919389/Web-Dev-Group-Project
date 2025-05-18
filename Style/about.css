@@ -1,0 +1,84 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+
+/* Header Styles */
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #7accea;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* Table styling */
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+/* Table header styling */
+  th {
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Table Cell Styles */
+td {
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  /* Hover effect for table cells */
+  td:hover {
+    background-color: #d9eaff;
+  }
+  
+ /* Border styling for table, headers, and cells */
+  table, th, td {
+    border: 1px solid #aaa;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design - Small screens */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        margin: 20px;
+    }
+}
+  
